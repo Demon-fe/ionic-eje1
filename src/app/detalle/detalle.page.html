@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+    INICIO
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar color="primary"><ion-button routerLink="/videoclub"></ion-button>
+      <ion-title size="large">INICIO</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Bienvenido a</ion-card-subtitle>
+      <ion-card-title>PIRATACLUB</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+     PIRATACLUB es una aplicacion desarrollada en ionic.
+      para gestionar pirataclub pulsa el siguiente boton.
+    </ion-card-content>
+    <ion-button routerLink="/videoclub">
+      <ion-icon name="videocam-outline"></ion-icon>
+         ACCESO A VIDEOCLUB
+    </ion-button>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>INFORMACION DEL AUTOR</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      app desarrollada por francisco espinosa dzul.
+
+      
+    </ion-card-content>
+    <ion-button  routerLink="/autor">
+      <ion-icon name="person-circle-outline"></ion-icon>
+    CONSULTAR INFORMACION 
+    </ion-button>
+    
+  </ion-card>
+
+</ion-content>

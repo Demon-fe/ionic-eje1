@@ -1,0 +1,76 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+      
+    </ion-buttons>
+    
+    <ion-title>
+  VIDEOCLUB
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar >  
+      <ion-buttons slot="start">
+        
+        <ion-button fill="outline" >
+          <ion-icon slot="start" name="apps-sharp"></ion-icon>
+          Star
+        </ion-button>
+      </ion-buttons>
+      <ion-title size="large">VIDEOCLUB</ion-title>
+    
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-item (click)="verPaginaDetalle(1)" >
+    <ion-thumbnail slot="start">
+      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>TRANFORMERES</h2>
+      <p>DIRECTOR: MICHEAL BAY</p>
+      <p>AÑO:2007</p>
+    </ion-label>
+    <ion-button fill="outline" slot="end">View</ion-button>
+  </ion-item>
+  <ion-item (click)="verPaginaDetalle(1)"  >
+    <ion-thumbnail slot="start">
+      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>TRANFORMERES: LA VENGANZA</h2>
+      <p>DIRECTOR: MICHEAL BAY</p>
+      <p>AÑO:2009</p>
+    </ion-label>
+    <ion-button fill="outline" slot="end">View</ion-button>
+  </ion-item>
+  <ion-item (click)="verPaginaDetalle(1)"  >
+    <ion-thumbnail slot="start">
+      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>TRANFORMERES: LADO OSCURO</h2>
+      <p>DIRECTOR: MICHEAL BAY</p>
+      <p>AÑO:2011</p>
+    </ion-label>
+    <ion-button fill="outline" slot="end">View</ion-button>
+  </ion-item>
+  <ion-item (click)="verPaginadetalle(1)">
+    <ion-thumbnail slot="start">
+      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>TRANFORMERES: EXTINSION</h2>
+      <p>DIRECTOR: MICHEAL BAY</p>
+      <p>AÑO:2014</p>
+    </ion-label>
+    <ion-button fill="outline" slot="end" (click)="verPaginaDetalle(1)"
+    >View</ion-button>
+  </ion-item>
+  
+    
+</ion-content>

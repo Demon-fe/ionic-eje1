@@ -1,0 +1,63 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+  CURRICULUM
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar color="primary">
+
+      <ion-title size="large">CURRICULUM</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-list *ngIf="listaTrabajos">
+    <ion-item *ngFor="let trabajo of listaTrabajos">
+      <ion-label class="ion-text-wrap">
+              <!-- TODO: Asignar los datos -->
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>2021 actualidad</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Carpintero en un taller
+      Encargado de mantemimiento de computadoras (independiente)
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>2020 actualidad</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Empleado en maldognas
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>2015-2018</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      profesor sustituto
+      mantenimiento de equipo de computo
+      trabajo caseros
+    </ion-card-content>
+  </ion-card>
+    
+</ion-content>
+
+
+
